@@ -9,10 +9,45 @@ Haar Cascade is a machine learning object detection algorithm used to identify o
 > - Recommended Range: 1.05 – 1.3
 
 **2) minNeighbors:**
-> Specifies how many neighbors each rectangle candidate should have to retain it.
-> Higher values reduce false positives but may miss some faces.
-> Recommended Range: 3 – 6
+> - Specifies how many neighbors each rectangle candidate should have to retain it.
+> - Higher values reduce false positives but may miss some faces.
+> - Recommended Range: 3 – 6
 
 Example:
-> scaleFactor=1.1 implies image is scaled down by 10% at each step.
-> minNeighbors=5 means region must have at least 5 neighbors to be considered a face.
+> - scaleFactor=1.1 implies image is scaled down by 10% at each step.
+> - minNeighbors=5 means region must have at least 5 neighbors to be considered a face.
+
+# Installation
+1. **Clone the Repository**
+```   
+bash
+Copy
+Edit
+git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git
+cd face_detection_by_Haar-cascafe
+```
+2. **Install Dependencies**
+Make sure you have Python and pip installed, then:
+```
+bash
+Copy
+Edit
+pip install opencv-python
+```
+
+# How to Run
+**Option 1: Detect Faces from Webcam**
+```
+bash
+Copy
+Edit
+python face_detect.py
+```
+**Option 2: Detect Faces in an Image**
+Modify the face_detect.py to load an image instead of webcam input (add this if needed):
+```
+python
+Copy
+Edit
+img = cv2.imread('your_image.jpg')
+```

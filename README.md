@@ -19,10 +19,10 @@ Example:
 
 # Installation
 1. **Clone the Repository**
-> <pre><code>
-  git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git 
-  cd face_detection_by_Haar-cascafe
-</code></pre>
+```
+git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git 
+cd face_detection_by_Haar-cascafe
+```
 
 2. **Install Dependencies**
 > Make sure you have Python and pip installed, then:

@@ -4,9 +4,9 @@ Haar Cascade is a machine learning object detection algorithm used to identify o
 
 # 🔍 Key Parameters:
 **1) scaleFactor:**
-> Determines how much the image size is reduced at each image scale.
-> Smaller values (e.g., 1.05) mean the algorithm will be more thorough and slower; larger values (e.g., 1.4) make it faster but may miss faces.
-> Recommended Range: 1.05 – 1.3
+> - Determines how much the image size is reduced at each image scale.
+> - Smaller values (e.g., 1.05) mean the algorithm will be more thorough and slower; larger values (e.g., 1.4) make it faster but may miss faces.
+> - Recommended Range: 1.05 – 1.3
 
 **2) minNeighbors:**
 > Specifies how many neighbors each rectangle candidate should have to retain it.

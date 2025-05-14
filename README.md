@@ -19,35 +19,23 @@ Example:
 
 # Installation
 1. **Clone the Repository**
-```   
-bash
-Copy
-Edit
-git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git
-cd face_detection_by_Haar-cascafe
-```
+<pre><code>
+  ```python    
+  git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git
+  cd face_detection_by_Haar-cascafe
+  ```
+</code></pre>
+
 2. **Install Dependencies**
 Make sure you have Python and pip installed, then:
-```
-bash
-Copy
-Edit
-pip install opencv-python
-```
+<pre><code> 
+  ```python pip install opencv-python
+  ```
+</code></pre>
 
 # How to Run
 **Option 1: Detect Faces from Webcam**
-```
-bash
-Copy
-Edit
-python face_detect.py
-```
+<pre><code> ```python python face_detect.py``` </code></pre>
 **Option 2: Detect Faces in an Image**
 Modify the face_detect.py to load an image instead of webcam input (add this if needed):
-```
-python
-Copy
-Edit
-img = cv2.imread('your_image.jpg')
-```
+<pre><code>```python img = cv2.imread('your_image.jpg')```</code></pre>
